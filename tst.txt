@@ -1,3 +1,2 @@
-tst.txt
-soso
+I'm new to git and this is my exercise for checking in
 
