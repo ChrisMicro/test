@@ -1,0 +1,38 @@
+
+Eigenes Git-Repository auf Platte ziehen:
+
+	git clone [url]
+
+Beispiel:
+
+	git clone "https://github.com/ChrisMicro/qrzForth"
+
+
+Verändertes Repository wieder auf Server hochschieben:
+
+	git push
+
+Anmerkung: Der Zielserver muss nicht angegeben werden, durch das vorherige Klonen des Repos ist er noch bekannt.
+
+
+File löschen:
+
+	git rm file1.txt
+	git commit -m "remove file1.txt"
+
+	
+File hinzufügen:
+
+	git add file1.txt
+	git commit -m "file1.txt added"
+
+Datein umbenennen:
+
+	git mv [alter Name] [neuer Name]
+
+    Benennt Dateien und Verzeichnissen um. 
+
+Visualisierung noch nicht eingecheckter Dateine ( Datein in stagering area ):
+
+	git status
+
