@@ -36,3 +36,13 @@ Visualisierung noch nicht eingecheckter Dateine ( Datein in stagering area ):
 
 	git status
 
+Alle "branch" auf das remote Verzeichnis hochladen:
+
+    git push --all -u
+    
+    This will push all your branches to the remote, and set-upstream tracking correctly for you:
+
+
+
+
+
