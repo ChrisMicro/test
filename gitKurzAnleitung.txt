@@ -26,7 +26,7 @@ File hinzufügen:
 	git add file1.txt
 	git commit -m "file1.txt added"
 
-Datein umbenennen:
+Dateien umbenennen:
 
 	git mv [alter Name] [neuer Name]
 
@@ -36,11 +36,25 @@ Visualisierung noch nicht eingecheckter Dateine ( Datein in stagering area ):
 
 	git status
 
+Einen Branch erstellen ( z.B. um einen Test unabhängig vom Master-Zweig zu machen )
+
+        git branch testZweig
+        git checkout testZweig
+
+        ( es geht auch abgekürzt: git checkout -b testZweig )
+
 Alle "branch" auf das remote Verzeichnis hochladen:
 
-    git push --all -u
+        git push --all -u
     
     This will push all your branches to the remote, and set-upstream tracking correctly for you:
+
+Um den Branch "testZweig" auf den Master zurück zu "mergen":
+
+        1. git checkout master
+        2. git merge testZweig
+
+
 
 
 
