@@ -53,6 +53,9 @@ Um den Branch "testZweig" auf den Master zurück zu "mergen":
 
         1. git checkout master
         2. git merge testZweig
+		
+Alter Zustand der noch nicht "comitteten" Files wieder herstellen		
+		git checkout HEAD .
 
 
 
