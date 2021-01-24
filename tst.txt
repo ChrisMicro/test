@@ -1,2 +1,4 @@
 I'm new to git and this is my exercise for checking in
 
+just checking, if GitHub is still working.
+
